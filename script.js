@@ -8,26 +8,26 @@ function calculate() {
     var beerAnswer = '1'
     if (beerType === 'light') {
         if(gender === 'female'){
-            beerAnswer = (((weight/2) * age)/350)
+            beerAnswer = (((weight/2) / 20)
         }
         else [
-            beerAnswer = (((weight) * age)/350)
+            beerAnswer = (((weight) / 20)
         ]
     } 
     if (beerType === 'regular') {
         if(gender === 'female'){
-            beerAnswer = (((weight/2) * age)/425)
+            beerAnswer = (((weight/2) / 20)
         }
         else [
-            beerAnswer = (((weight) * age)/425)
+            beerAnswer = (((weight) / 20)
         ]
     } 
     if (beerType === 'strong') {
         if(gender === 'female'){
-            beerAnswer = (((weight/2) * age)/575)
+            beerAnswer = (((weight/2) / 20)
         }
         else [
-            beerAnswer = (((weight) * age)/575)
+            beerAnswer = (((weight) / 20)
         ]
     } 
     // Display the result
